@@ -1,0 +1,36 @@
+# Ignore XAMPP configuration and environment files
+.env
+/.vscode/
+/nbproject/
+
+# Ignore XAMPP temporary files and logs
+xamppfiles/logs/*
+xamppfiles/temp/*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PHPStorm project files
+.idea/
+
+# Ignore vendor folder (if using Composer)
+vendor/
+
+# Ignore node_modules folder (if using npm)
+node_modules/
+
+# Ignore compiled CSS and JS (if applicable)
+public/css/*.css
+public/js/*.js
+
+# Ignore SQL database dumps
+*.sql
+
+# Ignore log files
+*.log
+
+# Ignore cache or temporary files
+cache/
+tmp/
+temp/
